@@ -1,0 +1,13 @@
+
+# Forçar final de linha LF para arquivos de código (mesmo no Windows)
+*.py text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.sh text eol=lf
+*.json text eol=lf
+*.js text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+
+# Arquivos de texto normais podem usar comportamento padrão
+* text=auto

@@ -1,0 +1,7 @@
+pyttsx3
+fastapi
+uvicorn
+openai
+python-dotenv
+SpeechRecognition
+pyaudio

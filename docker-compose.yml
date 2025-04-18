@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+  ai-assistant:
+    build: .
+    container_name: ai_assistant
+    volumes:
+      - .:/app
+    environment:
+      - OPENAI_API_KEY=your_api_key_here
+      - WEBHOOK_SECRET=seu_token_seguro
+    ports:
+      - "8000:80"
